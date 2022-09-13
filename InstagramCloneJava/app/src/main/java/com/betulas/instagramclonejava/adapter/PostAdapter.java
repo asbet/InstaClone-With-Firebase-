@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostHolder> {
 //3. PostAdater geip implement etmemiz gerekir
 
-    //4.Arraylisti istiyoruz
+    //4.Arraylist istiyoruz
     private ArrayList<Post>postArrayList;
 
     //9.adım
@@ -51,9 +51,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostHolder> {
         return postArrayList.size();
     }
 
-    //2.Post holder alt enter yaparz
+    //2.Post holder alt enter yaparız
     class PostHolder extends RecyclerView.ViewHolder{
-        //6binding kulladığımız için RecyclerRow binding oluştururmamız gerekiyor
+        //6.binding kulladığımız için RecyclerRow binding oluştururmamız gerekiyor
         RecyclerRowBinding recyclerRowBinding;
 
         public PostHolder(RecyclerRowBinding recyclerRowBinding) {
