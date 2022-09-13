@@ -62,7 +62,7 @@ public class FeedActivity extends AppCompatActivity {
                     Toast.makeText(FeedActivity.this,error.getLocalizedMessage(),Toast.LENGTH_LONG).show();
                 }
                 if(value!=null){
-                    //value.getDocuments() bize liste olarak dönüyor(getDocuments()) bu deperleri alamamız için for loop a almamız gerekiiyor
+                    //value.getDocuments() bize liste olarak dönüyor(getDocuments()) bu değerleri alamamız için for loop a almamız gerekiyor
                     for(DocumentSnapshot snapshot: value.getDocuments()){
                         Map<String,Object> data=snapshot.getData();
 
